@@ -6,7 +6,12 @@ class Projects extends Component {
 
 		return (
 				<div className="projects">
+					<h2>Projects</h2>
+					<p>Here are some recent projects I have done.</p>
+					<div className="row">
+					<hr />
 					
+					</div>
 				</div>
 			)
 	}

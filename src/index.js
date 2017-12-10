@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import Banner from './components/banner.js';
 import About from './components/About.js';
 import Skills from './components/skills.js';
+import Projects from './components/projects.js';
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
         <Banner></Banner>
         <About></About>
         <Skills></Skills>
+        <Projects></Projects>
       </div>
     );
   }

@@ -38,34 +38,50 @@ body {
 .about img {
 	width: 120px;
 	border-radius: 75px;
-	margin: 0px 50px 0px 0px;
-	float: left;
 }
 
 .skills {
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 1.0);
 	width: 100%;
-	padding: 3% 15% 10% 15%;
+	padding: 0% 15% 0% 15%;
 	text-align: center;
+	font-size: 1.2em;
+	overflow: auto;
+	overflow-y: hidden; /*// hide vertical*/
+	overflow-x: hidden; /*// hide horizontal*/
 	
 }
 
 .skills h2 {
-	margin-bottom: 1.5em;
+	margin-bottom: 1.3em;
 }
 
-.skillBlock h4 {
-	color: #000;
-}
-
-.skillBlock h1 {
-	color: #000;
+.skills img {
+	height: 70px;
 }
 
 .skillBlock {
 	float: left;
-	width: 33%;
-	padding-left: 10%;
-	color: #888;
+	padding: 3%;
+
+}
+
+.projects {
+	background-color: rgb(127, 191, 63);
+	width: 100%;
+	padding: 0% 15% 0% 15%;
+	text-align: center;
+	font-size: 1.2em;
+	overflow: auto;
+	
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 1em 0;
+    padding: 0; 
 }
 
